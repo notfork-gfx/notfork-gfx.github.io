@@ -1,7 +1,7 @@
 const galleryGrid = document.querySelector('.gallery-grid');
 
 function loadGallery() {
-  const images = ['art1.jpg', 'art2.jpg', 'art3.jpg'];
+  const images = ['art1.jpg', 'art2.jpg', 'art3.jpg', 'art4.jpg'];
   images.forEach(image => {
     const imgElement = document.createElement('img');
     imgElement.src = `images/${image}`;
